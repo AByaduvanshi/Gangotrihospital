@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+  <title>Gangotri</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="css/style.css">
+  
+  <link rel="stylesheet" href="css/responsive.css">
+
+  
+
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+  
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+  <style>
+    #preloader{
+      background: #000 url(  images/loading.gif) no-repeat center center; 
+      background-color: white;
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      z-index: 100;
+    }
+  </style>
+  <script>
+    var loader = document.getElementById("preloader");
+
+    window.addEventListener("load", function(){
+      loader.style.display ="none";
+    })
+  </script>
+
+</head>
+<body >
+  
+  <!-- top start -->
+  <div class="top">
+    <img src="images\main.png">
+    
+      
+      
+     
+    
+  </div>
+  <!--top end -->
+  <!-- header section start -->
+  <div class="header_section">
+    <nav class="destop_header navbar navbar-expand-lg navbar-light bg-light">
+      <div class="logo"></div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="doctor.html">Doctor</a>
+      
+          <li class="nav-item">
+            <a class="nav-link" href="depatments.html">Depatments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="images/search-icon.png"></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="login.html">LOGIN</a>
+          </li>              
+        </ul>
+      </div>
+    </nav>
+    <nav class="mobile_header navbar navbar-expand-lg navbar-light bg-light">
+      <div class="logo"><a href="index.html"><img src=""></a></div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="doctor.html">Doctor</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="depatments.html">Depatments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="images/search-icon.png"></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="login.html">LOGIN</a>
+          </li>              
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- header section end -->
+    <!--login start-->
+    <div class="container-fluid border border-2 mt-3 p-2 w-50  ">
+        
+        
+      <form>
+          <h1 class="text-center text-danger">Login</h1>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">User ID</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+           
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" required>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+          </div>
+          <button type="submit" class="btn btn-danger " onclick="fun()">Submit</button>
+          <button type="reset" class="btn btn-danger ">Reset</button>
+        </form>
+      
+  </div>
+
+  <!--login-end-->
+   <!-- footer section start -->
+      
+   <div class="info_section layout_padding">
+    <div class="container ">
+      <div class="info_content">
+            <div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="d-flex">
+              <h5>
+                Medical Care
+              </h5>
+            </div>
+            <div class="d-flex ">
+              <ul>
+                <li>
+                  <a href="">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    About services
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    About Departments
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Contact Us
+                  </a>
+                </li>
+              </ul>
+              <ul class="ml-3 ml-md-5">
+                <li>
+                  <a href="">
+                    Cancer Oncology
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Dental Surgery
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Diagnose & Research
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Drug / Medicines
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex">
+              <h5>
+                The Services
+              </h5>
+            </div>
+            <div class="d-flex ">
+              <ul>
+                <li>
+                  <a href="">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    About services
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    About Departments
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Contact Us
+                  </a>
+                </li>
+              </ul>
+              <ul class="ml-3 ml-md-5">
+                <li>
+                  <a href="">
+                    Cancer Oncology
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Dental Surgery
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Diagnose & Research
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Drug / Medicines
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex">
+              <h5>
+                Departments
+              </h5>
+            </div>
+            <div class="d-flex ">
+              <ul>
+                <li>
+                  <a href="">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    About services
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    About Departments
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Contact Us
+                  </a>
+                </li>
+              </ul>
+              <ul class="ml-3 ml-md-5">
+                <li>
+                  <a href="">
+                    Cancer Oncology
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Dental Surgery
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Diagnose & Research
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    Drug / Medicines
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-baseline">
+        <div class="social-box">
+          <a href="">
+            <img src="images/fb-icon.png" alt="" />
+          </a>
+
+          <a href="">
+            <img src="images/twitter-icon.png" alt="" />
+          </a>
+          <a href="">
+            <img src="images/linkedin-icon.png" alt="" />
+          </a>
+          <a href="">
+            <img src="images/instagram-icon.png" alt="" />
+          </a>
+        </div>
+        <div class="form_container mt-5">
+         
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- footer section end -->
+  <!-- copyright section start -->
+  <div class="copyright_section">
+    <div class="container">
+      <p class="copyright">2023 All Rights Reserved. Designed by AB Yaduvanshi. </a></p>
+    </div>
+  </div>
+  <!-- copyright section end -->
+   
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    
+    <script src="js/owl.carousel.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+</body>
+</html>
